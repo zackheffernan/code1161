@@ -2,7 +2,11 @@
 
 This file doesn't run yet.
 Go through it and change it until it runs.
+Remeber that all files must also pass the
+linter with no errors or warnings!
 """
+from __future__ import division
+from __future__ import print_function
 import string
 
 def getLetter(index):
@@ -10,12 +14,9 @@ def getLetter(index):
     return alphabet[index]
 
 
-def week2exercise2():
+def week2exersise2():
     indices = [12, 2, 26, 7, 0, 12, 12, 4, 17]
-    wordArray = []  # hint: should this be a dictionary?
-    for index in indices:
-        wordArray.append(getLetter(index))
-
+    wordArray = map(getLetter, indices)
     wordArray[0] = wordArray[0].upper()
     wordArray[1] = wordArray[1].upper()
     wordArray[3] = wordArray[3].upper()
@@ -25,4 +26,4 @@ def week2exercise2():
 
 
 if __name__ == "__main__":
-    print(week2exercise2)
+    print(week2exersise2)
