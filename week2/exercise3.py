@@ -56,8 +56,8 @@ def loops_1c(number_of_items=5, symbol="#"):
     E.g.: ['#', '#', '#', '#', '#']
     """
     a_list = []
-    for i in range(0,5):
-        a_list.append("#")
+    for i in range(number_of_items):
+        a_list.append(symbol)
     return a_list
 
 def loops_2():
@@ -167,8 +167,8 @@ def loops_5():
     a_list = []
     for i in range(10):
         b_list = []
-        for n in range(10):
-            b_list.append("i"+str(i)+"j"+str(n))
+        for n in range(5):
+            b_list.append("(i" + str(i) + ", j" + str(n) + ")")
         a_list.append(b_list)
     return a_list
 
@@ -223,7 +223,16 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    pass
+    a_list = []
+    for i in range (5):
+        b_list = []
+        for n in range(9):
+            if abs(n-4) <= i:
+                b_list.append("*")
+            else:
+                b_list.append(" ")
+        a_list.append(b_list)
+    return a_list
 
 
 def lp(some_kind_of_list, exercise_name):
