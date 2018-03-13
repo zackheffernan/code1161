@@ -52,7 +52,7 @@ def ex3runs(path):
         return False
 
 def lab_book_entry_completed():
-    lab_book = Path("week2/readme.md")
+    lab_book = Path("readme.md")
     if lab_book.is_file():
         with open(lab_book, 'r') as f:
             lines = f.readlines()
