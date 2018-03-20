@@ -12,7 +12,13 @@ def loop_ranger(start, stop=None, step=1):
 
     Do this using any method apart from just using range()
     """
-    pass
+    counter = start
+    a_list = []
+    while counter < stop:
+        a_list.append(counter)
+        counter += step
+    return a_list
+
 
 
 def lone_ranger(start, stop, step):
