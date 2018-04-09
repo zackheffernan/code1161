@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+The week 4 work took a lot of time for me to complete, so I haven't had the chance to finish the week 5 stuff yet. I think I need to spend more time looking back on the previous few week's work and revise the different types of loops and functions. 
