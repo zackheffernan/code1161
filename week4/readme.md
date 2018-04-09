@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+This week's work was a bit tricky, and I had trouble getting my .json stuff to work. On the plus side, I found out about integrting API's like the weather API into my code, so that's cool. My VSCode app is still displaying the debug console and terminal in a strange format, so I don't actually know if what I'm doing is right or not. Hopefully there's a easy fix for this, but a quick interent search doesn't turn up any results.

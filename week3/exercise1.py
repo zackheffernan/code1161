@@ -26,7 +26,14 @@ def lone_ranger(start, stop, step):
 
     Look up the docs for range() and wrap it in a 1:1 way
     """
-    pass
+    a_list = []
+    number_a = start
+    number_b = stop
+    step_1 = step
+    while number_a < number_b:
+        a_list.append(number_a)
+        number_a += step_1
+    return a_list
 
 
 def two_step_ranger(start, stop):
@@ -35,7 +42,12 @@ def two_step_ranger(start, stop):
     Sometimes you want to hide complexity.
     Make a range function that always has a step size of 2
     """
-    pass
+    a_list = []
+    count = start
+    while count < stop:
+        a_list.append(count)
+        count = count + 2
+    return a_list
 
 
 def stubborn_asker(low, high):
@@ -44,8 +56,8 @@ def stubborn_asker(low, high):
     Ask for a number, and if the response is outside the bounds keep asking
     until you get a number that you think is OK
     """
-    pass
 
+    pass
 
 def not_number_rejector(message):
     """Ask for a number repeatedly until actually given one.
@@ -54,8 +66,17 @@ def not_number_rejector(message):
     "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
-    pass
+    keep_asking = True
+    while keep_asking == True:
+        n = None
+        a_str = input("enter a number:")
+        try:
+            n = float(a_str)
+            keep_asking = False
+        except:
+            keep_asking = True
 
+    return "correct!"
 
 def super_asker(low, high):
     """Robust asking function.
