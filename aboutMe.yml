@@ -1,7 +1,6 @@
 name: Zack Heffernan
 studentNumber: z5208841
-gitHubUsername: zackheffernan
-stackoverflow: http://stackoverflow.com/users/1835727/ben
-unswEmail: z5208841@ad.unsw.edu.au
-realEmailFirstBit: zackheff12  # this avoids spam
-realEmailOtherBit: @gmail.com
+officialEmail: z5208841@ad.unsw.edu.au
+contactEmail:
+  firstBit: zackheff12  # this avoids spam, the @ is implied
+  otherBit: gmail.com
